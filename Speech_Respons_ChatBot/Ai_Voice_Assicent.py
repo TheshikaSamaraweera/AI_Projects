@@ -6,7 +6,7 @@ from langchain_core.prompts import PromptTemplate
 from pyttsx3 import speak
 
 # Configure Gemini
-genai.configure(api_key="")
+genai.configure(api_key="your key")
 model = genai.GenerativeModel("gemini-2.0-flash")
 
 # Initialize chat message history
